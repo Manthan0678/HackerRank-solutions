@@ -1,4 +1,4 @@
 if __name__ == '__main__':
-    n = int(raw_input())
-    integer_list = tuple(map(int, raw_input().split()))
+    n = int(input())
+    integer_list = tuple(map(int, input().split()))
     print(hash(integer_list))
